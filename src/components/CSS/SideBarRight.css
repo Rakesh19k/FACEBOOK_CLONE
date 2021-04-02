@@ -1,0 +1,127 @@
+.sideBarRight {
+    padding: 30px;
+    flex: 0.36;
+}
+
+.sidebarRight_top > h3 {
+    font-weight: 600;
+    font-size: 18px;
+    color: grey;
+}
+
+.sidebarRight_top {
+    border-bottom: 1px solid rgb(177, 177, 177);
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.birthday_people {
+    display: flex;
+    padding: 12px 0;
+}
+
+.birthday_people > h3 {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.birthday_people > span {
+    font-weight: 400;
+    color: grey;
+    margin-left: 5px;
+}
+
+.birthday_people:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+}
+
+.birthday_people > img {
+    height: 20px;
+    margin-right: 12px;
+}
+
+.sidebarRight_bottom {
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(177, 177, 177);
+}
+
+.sidebarRight_contact{
+    display: flex;
+    color: grey;
+}
+
+.sidebar_contact > h3 {
+    font-weight: 600;
+}
+
+.sidebar_contact_right{
+    margin-left: 60px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.sidebar_contact_right_icon{
+    margin: 0 2px;
+    padding: 6px;
+    font-size: small;
+}
+
+.sidebar_contact_right_icon:hover{
+    background-color: rgb(226, 225, 225);
+    border-radius: 50%;
+}
+
+.sidebarRight_people{
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebarRight_people > h4 {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.sidebarRight_people:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+}
+
+.sidebarRight_bottom_CreateGroups {
+    margin: 15px 0;
+}
+
+.sidebarRight_bottom_CreateGroups > h3 {
+    font-weight: 600;
+    color: grey;
+    align-items: center;
+}
+
+.sidebarRight_bottom_CreateGroup {
+    display: flex;
+    margin: 15px 0;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.sidebarRight_bottom_CreateGroup > h3 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.sidebarRight_bottom_CreateGroup > .MuiSvgIcon-root {
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+    border-radius: 50%;
+}
+
+.sidebarRight_bottom_CreateGroup:hover {
+    background-color: rgb(226, 225, 225);
+    border-radius: 10px;
+}
